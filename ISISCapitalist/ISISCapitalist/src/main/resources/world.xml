@@ -29,7 +29,34 @@ and open the template in the editor.
             <quantite>1</quantite>
             <timeleft>500</timeleft>
             <managerUnlocked>False</managerUnlocked>
-            <palliers>
+            <palliers> 
+                <pallier>
+                    <name>unlock1</name>
+                    <logo src="src/main/webapp/icones/banane.png"></logo>
+                    <seuil>20</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>False</unlocked>
+                </pallier>
+                <pallier>
+                    <name></name>
+                    <logo></logo>
+                    <seuil></seuil>
+                    <idcible></idcible>
+                    <ratio></ratio>
+                    <typeratio></typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+                <pallier>
+                    <name></name>
+                    <logo></logo>
+                    <seuil></seuil>
+                    <idcible></idcible>
+                    <ratio></ratio>
+                    <typeratio></typeratio>
+                    <unlocked></unlocked>
+                </pallier>
             </palliers>
         </product>
         <product>
@@ -91,10 +118,37 @@ and open the template in the editor.
         </pallier>
     </allunlocks>
     <upgrades>
+        <pallier>
+            <name>upgrade1</name>
+            <logo src="src/main/webapp/icones/banane.png"></logo>
+            <seuil>250000</seuil>
+            <idcible>1</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
     </upgrades>
     <angelupgrades>
+        <pallier>
+            <name>ange1</name>
+            <logo src="src/main/webapp/icones/ange.png"></logo>
+            <seuil>10000</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
     </angelupgrades>
     <managers>
+        <manager>
+            <name>DonkeyKong</name>
+            <logo src="src/main/webapp/icones/donkeykong.png"></logo>
+            <seuil>1000</seuil>
+            <idcible>1</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </manager>
     </managers>
 
 </world>
