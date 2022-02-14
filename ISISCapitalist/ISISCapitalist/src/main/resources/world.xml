@@ -21,28 +21,28 @@ and open the template in the editor.
         <product>
             <id>1</id>
             <name>banane</name>
-            <logo>src="</logo>
-            <cout></cout>
-            <croissance></croissance>
-            <revenu></revenu>
-            <vitesse></vitesse>
-            <quantite></quantite>
-            <timeleft></timeleft>
-            <managerUnlocked></managerUnlocked>
+            <logo src="src/main/webapp/icones/banane.png">banane</logo>
+            <cout>2</cout>
+            <croissance>1,07</croissance>
+            <revenu>1</revenu>
+            <vitesse>500</vitesse>
+            <quantite>1</quantite>
+            <timeleft>500</timeleft>
+            <managerUnlocked>False</managerUnlocked>
             <palliers>
             </palliers>
         </product>
         <product>
-            <id></id>
-            <name></name>
-            <logo></logo>
-            <cout></cout>
-            <croissance></croissance>
-            <revenu></revenu>
-            <vitesse></vitesse>
-            <quantite></quantite>
-            <timeleft></timeleft>
-            <managerUnlocked></managerUnlocked>
+            <id>2</id>
+            <name>champignon</name>
+            <logo src="src/main/webapp/icones/champignon.png">champignon</logo>
+            <cout>4</cout>
+            <croissance>1,15</croissance>
+            <revenu>2</revenu>
+            <vitesse>1000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>1000</timeleft>
+            <managerUnlocked>False</managerUnlocked>
             <palliers>
             </palliers>
         </product>
