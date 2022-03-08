@@ -10,7 +10,7 @@ and open the template in the editor.
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='../xsd/worldSchema.xsd'>
     <name>MarioCapitalist</name>
-    <logo>mario</logo>
+    <logo>icones/logo.png</logo>
     <money>0</money>
     <score>0</score>
     <totalangels>0</totalangels>
