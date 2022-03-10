@@ -9,7 +9,7 @@ and open the template in the editor.
 <world
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='../xsd/worldSchema.xsd'>
-    <name>MarioCapitalist</name>
+    <name>Super Mario Capitalist</name>
     <logo>icones/logo.png</logo>
     <money>0</money>
     <score>0</score>
@@ -375,7 +375,7 @@ and open the template in the editor.
         </paliers>
     </angelupgrades>
     <managers>
-        <manager>
+        <pallier>
             <name>DonkeyKong</name>
             <logo>icones/donkeykong.png</logo>
             <seuil>1000</seuil>
@@ -383,8 +383,8 @@ and open the template in the editor.
             <ratio></ratio>
             <typeratio></typeratio>
             <unlocked>false</unlocked>
-        </manager>
-        <manager>
+        </pallier>
+        <pallier>
             <name>Toad</name>
             <logo>icones/toad.png</logo>
             <seuil>15000</seuil>
@@ -392,8 +392,8 @@ and open the template in the editor.
             <ratio></ratio>
             <typeratio></typeratio>
             <unlocked>false</unlocked>
-        </manager>
-        <manager>
+        </pallier>
+        <pallier>
             <name>MarioFeu</name>
             <logo>icones/mariofeu.png</logo>
             <seuil>100000</seuil>
@@ -401,8 +401,8 @@ and open the template in the editor.
             <ratio></ratio>
             <typeratio></typeratio>
             <unlocked>false</unlocked>
-        </manager>
-        <manager>
+        </pallier>
+        <pallier>
             <name>TortueRouge</name>
             <logo>icones/tortuerouge.png</logo>
             <seuil>500000</seuil>
@@ -410,8 +410,8 @@ and open the template in the editor.
             <ratio></ratio>
             <typeratio></typeratio>
             <unlocked>false</unlocked>
-        </manager>
-        <manager>
+        </pallier>
+        <pallier>
             <name>RoiBombe</name>
             <logo>icones/roibombe.png</logo>
             <seuil>1200000</seuil>
@@ -419,8 +419,8 @@ and open the template in the editor.
             <ratio></ratio>
             <typeratio></typeratio>
             <unlocked>false</unlocked>
-        </manager>
-        <manager>
+        </pallier>
+        <pallier>
             <name>Bowser</name>
             <logo>icones/bowser.png</logo>
             <seuil>10000000</seuil>
@@ -428,7 +428,7 @@ and open the template in the editor.
             <ratio></ratio>
             <typeratio></typeratio>
             <unlocked>false</unlocked>
-        </manager>
+        </pallier>
     </managers>
 
 </world>
