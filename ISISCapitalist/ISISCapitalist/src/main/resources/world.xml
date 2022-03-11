@@ -23,11 +23,11 @@ and open the template in the editor.
             <name>banane</name>
             <logo>icones/banane.png</logo>
             <cout>2</cout>
-            <croissance>1,07</croissance>
-            <revenu>1</revenu>
+            <croissance>1.07</croissance>
+            <revenu>1000</revenu>
             <vitesse>500</vitesse>
             <quantite>1</quantite>
-            <timeleft>500</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
             <palliers> 
                 <pallier>
@@ -64,11 +64,11 @@ and open the template in the editor.
             <name>champignon</name>
             <logo>icones/champignon.png</logo>
             <cout>4</cout>
-            <croissance>1,15</croissance>
+            <croissance>1.15</croissance>
             <revenu>2</revenu>
             <vitesse>1000</vitesse>
             <quantite>0</quantite>
-            <timeleft>1000</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
             <palliers> 
                 <pallier>
@@ -105,11 +105,11 @@ and open the template in the editor.
             <name>fleur</name>
             <logo>icones/fleur.png</logo>
             <cout>8</cout>
-            <croissance>1,30</croissance>
+            <croissance>1.30</croissance>
             <revenu>4</revenu>
             <vitesse>2000</vitesse>
             <quantite>0</quantite>
-            <timeleft>2000</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
             <palliers> 
                 <pallier>
@@ -146,11 +146,11 @@ and open the template in the editor.
             <name>carapacerouge</name>
             <logo>icones/carapacerouge.png</logo>
             <cout>16</cout>
-            <croissance>1,60</croissance>
+            <croissance>1.60</croissance>
             <revenu>8</revenu>
             <vitesse>4000</vitesse>
             <quantite>0</quantite>
-            <timeleft>4000</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
             <palliers> 
                 <pallier>
@@ -187,11 +187,11 @@ and open the template in the editor.
             <name>bombe</name>
             <logo>icones/bombe.png</logo>
             <cout>32</cout>
-            <croissance>2,20</croissance>
+            <croissance>2.20</croissance>
             <revenu>16</revenu>
             <vitesse>8000</vitesse>
             <quantite>0</quantite>
-            <timeleft>8000</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
             <palliers> 
                 <pallier>
@@ -228,11 +228,11 @@ and open the template in the editor.
             <name>carapacebleue</name>
             <logo>icones/carapacebleue.png</logo>
             <cout>64</cout>
-            <croissance>3,40</croissance>
+            <croissance>3.40</croissance>
             <revenu>32</revenu>
             <vitesse>16000</vitesse>
             <quantite>0</quantite>
-            <timeleft>16000</timeleft>
+            <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
             <palliers> 
                 <pallier>
