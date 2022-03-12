@@ -24,19 +24,19 @@ and open the template in the editor.
             <logo>icones/banane.png</logo>
             <cout>2</cout>
             <croissance>1.07</croissance>
-            <revenu>1000</revenu>
+            <revenu>1</revenu>
             <vitesse>500</vitesse>
             <quantite>1</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
-            <palliers> 
+            <palliers>
                 <pallier>
                     <name>unlock1banane</name>
                     <logo>icones/banane.png</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -45,7 +45,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -54,9 +54,9 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
-                </pallier>
+                </pallier> 
             </palliers>
         </product>
         <product>
@@ -70,14 +70,14 @@ and open the template in the editor.
             <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
-            <palliers> 
+            <palliers>                
                 <pallier>
                     <name>unlock1champignon</name>
                     <logo>icones/champignon.png</logo>
                     <seuil>25</seuil>
                     <idcible>2</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -86,7 +86,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>2</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -95,7 +95,7 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>2</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
@@ -111,14 +111,14 @@ and open the template in the editor.
             <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
-            <palliers> 
+            <palliers>
                 <pallier>
                     <name>unlock1fleur</name>
                     <logo>icones/fleur.png</logo>
                     <seuil>25</seuil>
                     <idcible>3</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -127,7 +127,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>3</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -136,7 +136,7 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>3</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
@@ -152,14 +152,14 @@ and open the template in the editor.
             <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
-            <palliers> 
+            <palliers>                 
                 <pallier>
                     <name>unlock1carapacerouge</name>
                     <logo>icones/carapacerouge.png</logo>
                     <seuil>25</seuil>
                     <idcible>4</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -168,7 +168,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>4</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -177,7 +177,7 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>4</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
@@ -193,14 +193,14 @@ and open the template in the editor.
             <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>False</managerUnlocked>
-            <palliers> 
+            <palliers>                 
                 <pallier>
                     <name>unlock1bombe</name>
                     <logo>icones/bombe.png</logo>
                     <seuil>25</seuil>
                     <idcible>5</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -209,7 +209,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>5</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -218,12 +218,12 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>5</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
         </product>
-                <product>
+        <product>
             <id>6</id>
             <name>carapacebleue</name>
             <logo>icones/carapacebleue.png</logo>
@@ -241,7 +241,7 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>6</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -250,7 +250,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>6</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -259,126 +259,160 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>6</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
+                    <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
         </product>
     </products>
     <allunlocks>
+        <pallier>
+            <name>all</name>
+            <logo>icones/infini.png</logo>
+            <seuil>25</seuil>
+            <idcible>0</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+               <pallier>
+            <name>all2</name>
+            <logo>icones/infini.png</logo>
+            <seuil>50</seuil>
+            <idcible>0</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+               <pallier>
+            <name>all3</name>
+            <logo>icones/infini.png</logo>
+            <seuil>100</seuil>
+            <idcible>0</idcible>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
     </allunlocks>
     <upgrades>
-        <paliers>
-        <pallier>
-            <name>upgrade1banane</name>
-           <logo>icones/banane.png</logo>
-            <seuil>250000</seuil>
-            <idcible>1</idcible>
-            <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-            <name>upgrade2banane</name>
-            <logo>icones/banane.png</logo>
-            <seuil>20 000 000 000 000 000 000</seuil>
-            <idcible>1</idcible>
-            <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-            <name>upgrade3banane</name>
-            <logo>icones/banane.png</logo>
-            <seuil>2 000 000 000 000 000 000 000 000 000 000</seuil>
-            <idcible>1</idcible>
-            <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-            <name>upgrade4banane</name>
-            <logo>icones/banane.png</logo>
-            <seuil>25 000 000 000 000 000 000 000 000 000 000 000 000</seuil>
-            <idcible>1</idcible>
-            <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>fakse</unlocked>
-        </pallier>
-        <pallier>
-            <name>upgrade1champignon</name>
-            <logo>icones/champignon.png</logo>
-            <seuil>500000</seuil>
-            <idcible>2</idcible>
-            <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-            <name>upgrade2champignon</name>
-            <logo>icones/champignon.png</logo>
-            <seuil>50 000 000 000 000 000 000</seuil>
-            <idcible>2</idcible>
-            <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-            <name>upgrade3champignon</name>
-            <logo>icones/champignon.png</logo>
-            <seuil>5 000 000 000 000 000 000 000 000 000 000</seuil>
-            <idcible>2</idcible>
-            <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-            <name>upgrade4champignon</name>
-           <logo>icones/champignon.png</logo>
-            <seuil>50 000 000 000 000 000 000 000 000 000 000 000 000</seuil>
-            <idcible>2</idcible>
-            <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-        </paliers>
+            <pallier>
+                <name>upgrade1banane</name>
+                <logo>icones/banane.png</logo>
+                <seuil>250000</seuil>
+                <idcible>1</idcible>
+                <ratio>3</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>upgrade2banane</name>
+                <logo>icones/banane.png</logo>
+                <seuil>20000000000000000000</seuil>
+                <idcible>1</idcible>
+                <ratio>3</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>upgrade3banane</name>
+                <logo>icones/banane.png</logo>
+                <seuil>2 000 000 000 000 000 000 000 000 000 000</seuil>
+                <idcible>1</idcible>
+                <ratio>3</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>upgrade4banane</name>
+                <logo>icones/banane.png</logo>
+                <seuil>25 000 000 000 000 000 000 000 000 000 000 000 000</seuil>
+                <idcible>1</idcible>
+                <ratio>3</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>fakse</unlocked>
+            </pallier>
+            <pallier>
+                <name>upgrade1champignon</name>
+                <logo>icones/champignon.png</logo>
+                <seuil>500000</seuil>
+                <idcible>2</idcible>
+                <ratio>3</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>upgrade2champignon</name>
+                <logo>icones/champignon.png</logo>
+                <seuil>50 000 000 000 000 000 000</seuil>
+                <idcible>2</idcible>
+                <ratio>3</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>upgrade3champignon</name>
+                <logo>icones/champignon.png</logo>
+                <seuil>5 000 000 000 000 000 000 000 000 000 000</seuil>
+                <idcible>2</idcible>
+                <ratio>3</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>upgrade4champignon</name>
+                <logo>icones/champignon.png</logo>
+                <seuil>50 000 000 000 000 000 000 000 000 000 000 000 000</seuil>
+                <idcible>2</idcible>
+                <ratio>3</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>upgradeAll</name>
+                <logo>icones/infini.png</logo>
+                <seuil>3000000000000000000000000000000000000000000</seuil>
+                <idcible>0</idcible>
+                <ratio>3</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
     </upgrades>
     <angelupgrades>
         <paliers>
-        <pallier>
-            <name>upgrade1ange</name>
-            <logo>icones/ange.png</logo>
-            <seuil>10000</seuil>
-            <idcible>0</idcible>
-            <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-            <name>upgrade2ange</name>
-            <logo>icones/ange.png</logo>
-            <seuil>100000</seuil>
-            <idcible>-1</idcible>
-            <ratio>2</ratio>
-            <typeratio>ANGE</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-            <name>upgrade2ange</name>
-            <logo>icones/ange.png</logo>
-            <seuil>100 000 000</seuil>
-            <idcible>-1</idcible>
-            <ratio>2</ratio>
-            <typeratio>ANGE</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
+            <pallier>
+                <name>upgrade1ange</name>
+                <logo>icones/ange.png</logo>
+                <seuil>10000</seuil>
+                <idcible>0</idcible>
+                <ratio>3</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>upgrade2ange</name>
+                <logo>icones/ange.png</logo>
+                <seuil>100000</seuil>
+                <idcible>-1</idcible>
+                <ratio>2</ratio>
+                <typeratio>ange</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>upgrade2ange</name>
+                <logo>icones/ange.png</logo>
+                <seuil>100 000 000</seuil>
+                <idcible>-1</idcible>
+                <ratio>2</ratio>
+                <typeratio>ange</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
         </paliers>
     </angelupgrades>
     <managers>
         <pallier>
             <name>DonkeyKong</name>
             <logo>icones/donkeykong.png</logo>
-            <seuil>1000</seuil>
+            <seuil>1 000</seuil>
             <idcible>1</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
@@ -387,7 +421,7 @@ and open the template in the editor.
         <pallier>
             <name>Toad</name>
             <logo>icones/toad.png</logo>
-            <seuil>15000</seuil>
+            <seuil>15 000</seuil>
             <idcible>2</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
@@ -405,7 +439,7 @@ and open the template in the editor.
         <pallier>
             <name>TortueRouge</name>
             <logo>icones/tortuerouge.png</logo>
-            <seuil>500000</seuil>
+            <seuil>500 000</seuil>
             <idcible>4</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
@@ -414,7 +448,7 @@ and open the template in the editor.
         <pallier>
             <name>RoiBombe</name>
             <logo>icones/roibombe.png</logo>
-            <seuil>1200000</seuil>
+            <seuil>1 200 000</seuil>
             <idcible>5</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
@@ -423,12 +457,11 @@ and open the template in the editor.
         <pallier>
             <name>Bowser</name>
             <logo>icones/bowser.png</logo>
-            <seuil>10000000</seuil>
+            <seuil>10 000 000</seuil>
             <idcible>6</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
             <unlocked>false</unlocked>
         </pallier>
     </managers>
-
 </world>
