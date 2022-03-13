@@ -57,6 +57,15 @@ and open the template in the editor.
                     <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier> 
+                <pallier>
+                    <name>unlock4banane</name>
+                    <logo>icones/banane.png</logo>
+                    <seuil>150</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
             </palliers>
         </product>
         <product>
@@ -96,6 +105,15 @@ and open the template in the editor.
                     <idcible>2</idcible>
                     <ratio>2</ratio>
                     <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>unlock4champignon</name>
+                    <logo>icones/champignon.png</logo>
+                    <seuil>150</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
@@ -139,6 +157,16 @@ and open the template in the editor.
                     <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
+                <pallier>
+                    <name>unlock4fleur</name>
+                    <logo>icones/fleur.png</logo>
+                    <seuil>150</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                
             </palliers>
         </product>
         <product>
@@ -180,6 +208,15 @@ and open the template in the editor.
                     <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
+                <pallier>
+                    <name>unlock4carapacerouge</name>
+                    <logo>icones/carapacerouge.png</logo>
+                    <seuil>150</seuil>
+                    <idcible>4</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>    
             </palliers>
         </product>
         <product>
@@ -219,6 +256,15 @@ and open the template in the editor.
                     <idcible>5</idcible>
                     <ratio>2</ratio>
                     <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>unlock4bombe</name>
+                    <logo>icones/bombe.png</logo>
+                    <seuil>150</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
@@ -262,6 +308,15 @@ and open the template in the editor.
                     <typeratio>gain</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
+                <pallier>
+                    <name>unlock4carapacebleue</name>
+                    <logo>icones/carapacebleue.png</logo>
+                    <seuil>150</seuil>
+                    <idcible>6</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
             </palliers>
         </product>
     </products>
@@ -275,7 +330,7 @@ and open the template in the editor.
             <typeratio>gain</typeratio>
             <unlocked>false</unlocked>
         </pallier>
-               <pallier>
+        <pallier>
             <name>all2</name>
             <logo>icones/infini.png</logo>
             <seuil>50</seuil>
@@ -284,7 +339,7 @@ and open the template in the editor.
             <typeratio>gain</typeratio>
             <unlocked>false</unlocked>
         </pallier>
-               <pallier>
+        <pallier>
             <name>all3</name>
             <logo>icones/infini.png</logo>
             <seuil>100</seuil>
@@ -293,89 +348,251 @@ and open the template in the editor.
             <typeratio>gain</typeratio>
             <unlocked>false</unlocked>
         </pallier>
+    <pallier>
+        <name>all4</name>
+        <logo>icones/infini.png</logo>
+        <seuil>150</seuil>
+        <idcible>0</idcible>
+        <ratio>2</ratio>
+        <typeratio>vitesse</typeratio>
+        <unlocked>false</unlocked>
+    </pallier>
     </allunlocks>
     <upgrades>
-            <pallier>
-                <name>upgrade1banane</name>
-                <logo>icones/banane.png</logo>
-                <seuil>250000</seuil>
-                <idcible>1</idcible>
-                <ratio>3</ratio>
-                <typeratio>gain</typeratio>
-                <unlocked>false</unlocked>
-            </pallier>
-            <pallier>
-                <name>upgrade2banane</name>
-                <logo>icones/banane.png</logo>
-                <seuil>20000000000000000000</seuil>
-                <idcible>1</idcible>
-                <ratio>3</ratio>
-                <typeratio>gain</typeratio>
-                <unlocked>false</unlocked>
-            </pallier>
-            <pallier>
-                <name>upgrade3banane</name>
-                <logo>icones/banane.png</logo>
-                <seuil>2 000 000 000 000 000 000 000 000 000 000</seuil>
-                <idcible>1</idcible>
-                <ratio>3</ratio>
-                <typeratio>gain</typeratio>
-                <unlocked>false</unlocked>
-            </pallier>
-            <pallier>
-                <name>upgrade4banane</name>
-                <logo>icones/banane.png</logo>
-                <seuil>25 000 000 000 000 000 000 000 000 000 000 000 000</seuil>
-                <idcible>1</idcible>
-                <ratio>3</ratio>
-                <typeratio>gain</typeratio>
-                <unlocked>fakse</unlocked>
-            </pallier>
-            <pallier>
-                <name>upgrade1champignon</name>
-                <logo>icones/champignon.png</logo>
-                <seuil>500000</seuil>
-                <idcible>2</idcible>
-                <ratio>3</ratio>
-                <typeratio>gain</typeratio>
-                <unlocked>false</unlocked>
-            </pallier>
-            <pallier>
-                <name>upgrade2champignon</name>
-                <logo>icones/champignon.png</logo>
-                <seuil>50 000 000 000 000 000 000</seuil>
-                <idcible>2</idcible>
-                <ratio>3</ratio>
-                <typeratio>gain</typeratio>
-                <unlocked>false</unlocked>
-            </pallier>
-            <pallier>
-                <name>upgrade3champignon</name>
-                <logo>icones/champignon.png</logo>
-                <seuil>5 000 000 000 000 000 000 000 000 000 000</seuil>
-                <idcible>2</idcible>
-                <ratio>3</ratio>
-                <typeratio>gain</typeratio>
-                <unlocked>false</unlocked>
-            </pallier>
-            <pallier>
-                <name>upgrade4champignon</name>
-                <logo>icones/champignon.png</logo>
-                <seuil>50 000 000 000 000 000 000 000 000 000 000 000 000</seuil>
-                <idcible>2</idcible>
-                <ratio>3</ratio>
-                <typeratio>gain</typeratio>
-                <unlocked>false</unlocked>
-            </pallier>
-            <pallier>
-                <name>upgradeAll</name>
-                <logo>icones/infini.png</logo>
-                <seuil>3000000000000000000000000000000000000000000</seuil>
-                <idcible>0</idcible>
-                <ratio>3</ratio>
-                <typeratio>gain</typeratio>
-                <unlocked>false</unlocked>
-            </pallier>
+        <pallier>
+            <name>upgrade1banane</name>
+            <logo>icones/banane.png</logo>
+            <seuil>10</seuil>
+            <idcible>1</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade2banane</name>
+            <logo>icones/banane.png</logo>
+            <seuil>100</seuil>
+            <idcible>1</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade3banane</name>
+            <logo>icones/banane.png</logo>
+            <seuil>1000</seuil>
+            <idcible>1</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade4banane</name>
+            <logo>icones/banane.png</logo>
+            <seuil>20</seuil>
+            <idcible>1</idcible>
+            <ratio>3</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>fakse</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade1champignon</name>
+            <logo>icones/champignon.png</logo>
+            <seuil>20</seuil>
+            <idcible>2</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade2champignon</name>
+            <logo>icones/champignon.png</logo>
+            <seuil>200</seuil>
+            <idcible>2</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade3champignon</name>
+            <logo>icones/champignon.png</logo>
+            <seuil>2000</seuil>
+            <idcible>2</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade4champignon</name>
+            <logo>icones/champignon.png</logo>
+            <seuil>30</seuil>
+            <idcible>2</idcible>
+            <ratio>3</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+                <pallier>
+            <name>upgrade1fleur</name>
+            <logo>icones/fleur</logo>
+            <seuil>30</seuil>
+            <idcible>3</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade2fleur</name>
+            <logo>icones/fleur.png</logo>
+            <seuil>300</seuil>
+            <idcible>3</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade3fleur</name>
+            <logo>icones/fleur.png</logo>
+            <seuil>3000</seuil>
+            <idcible>3</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade4fleur</name>
+            <logo>icones/fleur.png</logo>
+            <seuil>40</seuil>
+            <idcible>3</idcible>
+            <ratio>3</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+                <pallier>
+            <name>upgrade1carapacerouge</name>
+            <logo>icones/carapacerouge.png</logo>
+            <seuil>40</seuil>
+            <idcible>4</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade2carapacerouge</name>
+            <logo>icones/carapacerouge.png</logo>
+            <seuil>400</seuil>
+            <idcible>4</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade3carapacerouge</name>
+            <logo>icones/carapacerouge.png</logo>
+            <seuil>4000</seuil>
+            <idcible>4</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade4carapacerouge</name>
+            <logo>icones/carapacerouge.png</logo>
+            <seuil>50</seuil>
+            <idcible>4</idcible>
+            <ratio>3</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+                    <pallier>
+            <name>upgrade1bombe</name>
+            <logo>icones/bombe.png</logo>
+            <seuil>50</seuil>
+            <idcible>5</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade2bombe</name>
+            <logo>icones/bombe.png</logo>
+            <seuil>500</seuil>
+            <idcible>5</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade3bombe</name>
+            <logo>icones/bombe.png</logo>
+            <seuil>5000</seuil>
+            <idcible>5</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade4bombe</name>
+            <logo>icones/bombe.png</logo>
+            <seuil>60</seuil>
+            <idcible>5</idcible>
+            <ratio>3</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+         <pallier>
+            <name>upgrade1carapacebleue</name>
+            <logo>icones/carapacebleue.png</logo>
+            <seuil>60</seuil>
+            <idcible>6</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade2carapacebleue</name>
+            <logo>icones/carapacebleue.png</logo>
+            <seuil>600</seuil>
+            <idcible>6</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade3carapacebleue</name>
+            <logo>icones/carapacebleue.png</logo>
+            <seuil>6000</seuil>
+            <idcible>6</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgrade4carapacebleue</name>
+            <logo>icones/carapacebleue.png</logo>
+            <seuil>70</seuil>
+            <idcible>6</idcible>
+            <ratio>3</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgradeAll</name>
+            <logo>icones/infini.png</logo>
+            <seuil>50</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>upgradeAll2</name>
+            <logo>icones/infini.png</logo>
+            <seuil>100</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
     </upgrades>
     <angelupgrades>
         <paliers>
@@ -412,7 +629,7 @@ and open the template in the editor.
         <pallier>
             <name>DonkeyKong</name>
             <logo>icones/donkeykong.png</logo>
-            <seuil>1 000</seuil>
+            <seuil>10</seuil>
             <idcible>1</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
@@ -421,7 +638,7 @@ and open the template in the editor.
         <pallier>
             <name>Toad</name>
             <logo>icones/toad.png</logo>
-            <seuil>15 000</seuil>
+            <seuil>100</seuil>
             <idcible>2</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
@@ -430,7 +647,7 @@ and open the template in the editor.
         <pallier>
             <name>MarioFeu</name>
             <logo>icones/mariofeu.png</logo>
-            <seuil>100000</seuil>
+            <seuil>1000</seuil>
             <idcible>3</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
@@ -439,7 +656,7 @@ and open the template in the editor.
         <pallier>
             <name>TortueRouge</name>
             <logo>icones/tortuerouge.png</logo>
-            <seuil>500 000</seuil>
+            <seuil>10000</seuil>
             <idcible>4</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
@@ -448,7 +665,7 @@ and open the template in the editor.
         <pallier>
             <name>RoiBombe</name>
             <logo>icones/roibombe.png</logo>
-            <seuil>1 200 000</seuil>
+            <seuil>100000</seuil>
             <idcible>5</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
@@ -457,7 +674,7 @@ and open the template in the editor.
         <pallier>
             <name>Bowser</name>
             <logo>icones/bowser.png</logo>
-            <seuil>10 000 000</seuil>
+            <seuil>1000000</seuil>
             <idcible>6</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
