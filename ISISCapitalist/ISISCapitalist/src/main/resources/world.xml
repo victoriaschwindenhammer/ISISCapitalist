@@ -595,11 +595,10 @@ and open the template in the editor.
         </pallier>
     </upgrades>
     <angelupgrades>
-        <paliers>
             <pallier>
                 <name>upgrade1ange</name>
                 <logo>icones/ange.png</logo>
-                <seuil>10000</seuil>
+                <seuil>1e4</seuil>
                 <idcible>0</idcible>
                 <ratio>3</ratio>
                 <typeratio>gain</typeratio>
@@ -608,7 +607,7 @@ and open the template in the editor.
             <pallier>
                 <name>upgrade2ange</name>
                 <logo>icones/ange.png</logo>
-                <seuil>100000</seuil>
+                <seuil>1e5</seuil>
                 <idcible>-1</idcible>
                 <ratio>2</ratio>
                 <typeratio>ange</typeratio>
@@ -617,13 +616,12 @@ and open the template in the editor.
             <pallier>
                 <name>upgrade2ange</name>
                 <logo>icones/ange.png</logo>
-                <seuil>100 000 000</seuil>
+                <seuil>1e8</seuil>
                 <idcible>-1</idcible>
                 <ratio>2</ratio>
                 <typeratio>ange</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
-        </paliers>
     </angelupgrades>
     <managers>
         <pallier>
