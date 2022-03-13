@@ -9,6 +9,7 @@ import generated.PallierType;
 import generated.ProductType;
 import generated.World;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.InputStream;
@@ -29,15 +30,22 @@ public class Services {
 
     private World world;
 
-    World readWorldFromXml(String pseudo) {
+    World readWorldFromXml(String username) {
         JAXBContext jaxbContext;
+        InputStream input = null;
+    try {
+        input = new FileInputStream(username + "file.xml");
+
+    } catch (Exception ex) {
+        input = getClass().getClassLoader().getResourceAsStream("world.xml");
+    }
         try {
             JAXBContext cont = JAXBContext.newInstance(World.class);
             Unmarshaller u = cont.createUnmarshaller();
-            InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
             world = (World) u.unmarshal(input);
-
-        } catch (Exception ex) {
+            input.close();
+            }
+          catch (Exception ex) {
             System.out.println("erreur du fichier" + ex.getMessage());
             ex.printStackTrace();
 
@@ -46,13 +54,14 @@ public class Services {
         return world;
     }
 
-    void saveWordlToXml(World world, String pseudo) {
+    void saveWordlToXml(World world, String username) {
         JAXBContext jaxbContext;
         try {
             JAXBContext cont = JAXBContext.newInstance(World.class);
             Marshaller m = cont.createMarshaller();
-            OutputStream output = new FileOutputStream("file.xml");
+            OutputStream output = new FileOutputStream(username+"file.xml");
             m.marshal(world, output);
+            output.close();
         } catch (Exception ex) {
             System.out.println("erreur du fichier" + ex.getMessage());
             ex.printStackTrace();
@@ -78,13 +87,14 @@ public class Services {
         int qteChange = newproduct.getQuantite() - product.getQuantite();
         if (qteChange > 0) {
             //  A REVOIR: soustraire de l'argent du joueur le cout de la quantité achetée et mettre à jour la quantité de product
-            world.setMoney(world.getMoney() - product.getCout());
-            product.setQuantite(newproduct.getQuantite());
-            product.setCout(newproduct.getCout());
+            world.setMoney(world.getMoney() - (product.getCout()*qteChange));
+            product.setQuantite(product.getQuantite()+qteChange);
+            product.setCout(product.getCout()*Math.pow(product.getCroissance(),(qteChange-1)));
         } else {
             // initialiser product.timeleft à product.vitesse pour lancer la production
             product.setTimeleft(product.getVitesse());
-            world.setMoney(world.getMoney() + (product.getRevenu() * product.getQuantite()));
+            long lastupdate= System.currentTimeMillis();
+            //world.setMoney(world.getMoney() + (product.getRevenu() * product.getQuantite()));
         }
         // sauvegarder les changements du monde
         saveWordlToXml(world, username);
@@ -103,15 +113,15 @@ public class Services {
             return false;
         }
         // débloquer ce manager
-        // trouver le produit correspondant au manager
         manager.setUnlocked(true);
+        // trouver le produit correspondant au manager
         ProductType product = findProductById(world, manager.getIdcible());
         if (product == null) {
             return false;
         }
-//        // débloquer le manager de ce produit
-//        // soustraire de l'argent du joueur le cout du manager
-//        // sauvegarder les changements au monde
+        // débloquer le manager de ce produit
+        // soustraire de l'argent du joueur le cout du manager
+        // sauvegarder les changements au monde
         product.setManagerUnlocked(true);
         world.setMoney(world.getMoney() - manager.getSeuil());
         saveWordlToXml(world, username);

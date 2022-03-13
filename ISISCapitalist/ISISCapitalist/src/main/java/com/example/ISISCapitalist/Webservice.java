@@ -46,14 +46,14 @@ public class Webservice {
         return ResponseEntity.ok(world);
     }
 
-      @PUT
-    @Path("product")
+     @PUT
+    @PutMapping("product")
     public void putProduct(@Context HttpServletRequest request, ProductType product) {
         services.updateProduct(request.getHeader("X-User"), product);
     }
   
     @PUT
-    @Path("manager")
+    @PutMapping("manager")
     public void putManager(@Context HttpServletRequest request, PallierType manager) {
        services.updateManager(request.getHeader("X-User"), manager);
     }
